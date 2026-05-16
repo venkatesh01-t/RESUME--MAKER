@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Resume</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PDF Download Button -->
+  <div class="top-actions">
+    <button id="downloadBtn">
+      <i class="fa-solid fa-file-arrow-down"></i>
+      Download PDF
+    </button>
+  </div>
+
+  <div id="pdfPreviewModal" class="pdf-preview" aria-hidden="true">
+    <div class="pdf-preview__backdrop" data-close></div>
+    <div class="pdf-preview__dialog" role="dialog" aria-modal="true" aria-labelledby="pdfPreviewTitle">
+      <div class="pdf-preview__header">
+        <h3 id="pdfPreviewTitle">PDF Preview</h3>
+        <button class="pdf-preview__close" type="button" data-close aria-label="Close preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="pdf-preview__body">
+        <iframe id="pdfPreviewFrame" title="PDF preview"></iframe>
+      </div>
+      <div class="pdf-preview__actions">
+        <button id="cancelPreviewBtn" type="button" class="ghost-btn">Cancel</button>
+        <button id="confirmDownloadBtn" type="button">Download PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Wrapper -->
+  <main class="page-wrapper">
+
+    <!-- A4 Resume -->
+    <section id="resume" class="resume-container">
+
+      <!-- HEADER -->
+      <header class="resume-header">
+        <h1>VENKATESH </h1>
+        <h2>Python Developer</h2>
+
+        <div class="contact-row">
+          <a href="tel:+919952142302"><i class="fa-solid fa-phone"></i> +91-9952142302</a>
+          <a href="mailto:babuvenkatesh093@gmail.com"><i class="fa-solid fa-at"></i> babuvenkatesh093@gmail.com</a>
+          <a href="https://www.linkedin.com/in/venkatesh-babu-208891392/" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-link"></i> LinkedIn
+          </a>
+          <a href="https://venkatesh01-t.github.io/Venkatesh/" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-link"></i> website
+          </a>
+          <a href="https://maps.google.com/?q=Madurai%2C%20India" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-location-dot"></i> Madurai, India
+          </a>
+        </div>
+      </header>
+
+      <!-- CONTENT -->
+      <div class="resume-content">
+
+        <!-- LEFT -->
+        <div class="left-column">
+
+          <!-- SUMMARY -->
+          <section class="section">
+            <h3 class="section-title">SUMMARY</h3>
+
+            <p>
+              Python Developer and AI Enthusiast with 2+ years of self-learning experience in developing web applications and solving real-world business problems. Skilled in Python, Django, REST APIs, AI Tools, Prompt Engineering, and Machine Learning fundamentals, with knowledge of secure authentication systems (OAuth2/JWT).
+</p>
+
+            <p>
+              Developed a real-world <a href="https://drive.google.com/file/d/1fLHmqMmAfcmpRrfM-CSVhVjR9upTdb_u/view?usp=sharing" target="_blank" rel="noreferrer">Dental Clinic Management System (DCMS)</a> to digitize paperwork, manage patient records, and improve clinic workflow efficiency. Passionate about learning new technologies, building AI-powered solutions, and creating innovative products that solve practical challenges.
+</p>
+
+            <p>
+              Quick learner with strong problem-solving skills, adaptability, and continuous learning mindset. Seeking an opportunity as a Fresher Python Developer / AI Engineer to contribute technical skills, creativity, and modern development knowledge in a growth-oriented organization.
+            </p>
+          </section>
+
+          <!-- EXPERIENCE -->
+          <section class="section">
+            <h3 class="section-title">INTERNSHIP EXPERIENCE</h3>
+
+            <div class="experience-block">
+              <a href="https://drive.google.com/file/d/1aOtFMXk1PJ54rWCw-bLACY9TXayWb1uw/view?usp=drive_link" target="_blank" rel="noreferrer"><h4>Python Developer</h4></a>
+              <h5>Sharpenmind Technologies</h5>
+
+              <div class="meta">
+                <span><i class="fa-solid fa-calendar"></i> Sep 2025 - Dec 2025</span>
+                <span><i class="fa-solid fa-location-dot"></i> Madurai, IN</span>
+              </div>
+
+          <ul>
+  <li>Developed a real-time driver drowsiness detection system using Python, OpenCV, NumPy, and MediaPipe for safety monitoring applications.</li>
+
+  <li>Implemented facial landmark and eye-point tracking to detect eye closure, blinking patterns, and driver fatigue from live camera frames.</li>
+
+  <li>Built a real-time monitoring system that captured video frames continuously and triggered alerts, notifications, and SOS warnings when the driver’s eyes remained closed for more than 5 seconds.</li>
+
+  <li>Designed a GUI-based application to display live detection results and API responses without integrating IoT hardware devices.</li>
+
+  <li>Applied image processing and feature extraction techniques to improve detection accuracy and performance under different lighting conditions.</li>
+
+  <li>Used modular and structured Python programming practices with Git and GitHub for project management, testing, and documentation.</li>
+</ul>
+            </div>
+
+            <div class="experience-block">
+             <a href="https://drive.google.com/file/d/1T5G-CbASEpQUXy6v4aifDDhgpAd7eMSu/view?usp=sharing" target="_blank" rel="noreferrer"> <h4>Machine Learning Engineer</h4></a>
+              <h5>Elysium Technologies</h5>
+
+              <div class="meta">
+                <span><i class="fa-solid fa-calendar"></i> Sep 2023 - Dec 2023</span>
+                <span><i class="fa-solid fa-location-dot"></i> Madurai, IN</span>
+              </div>
+
+              <ul>
+  <li>Built a strong foundation in Python programming and gained practical experience with machine learning libraries such as NumPy, Pandas, and Matplotlib.</li>
+
+  <li>Implemented basic machine learning models using structured and randomly generated datasets for feature filtering, preprocessing, and analysis.</li>
+
+  <li>Applied data preprocessing techniques including data cleaning, grouping, visualization, and noise reduction to improve model performance.</li>
+
+  <li>Worked with supervised, semi-supervised, and unsupervised learning methods while exploring algorithms such as KNN and SVM.</li>
+
+  <li>Developed class-based Python applications using object-oriented programming concepts, inheritance, reusable functions, and Data Structures & Algorithms (DSA).</li>
+
+  <li>Used PyTest, Git, and GitHub for testing, version control, project management, and maintaining proper project documentation following SDLC practices.</li>
+</ul>
+            </div>
+          </section>
+
+          <!-- EDUCATION -->
+          <section class="section">
+            <h3 class="section-title">EDUCATION</h3>
+<div class="education-block">
+              <h4>Master of Computer Applications</h4>
+
+              <h5>Madurai kamaraj University</h5>
+
+              <div class="meta">
+                <span><i class="fa-solid fa-calendar"></i>May 2024 – Apr 2026</span>
+                <span><i class="fa-solid fa-location-dot"></i> Madurai, IN</span>
+              </div>
+            </div>
+            <div class="education-block">
+              <h4>Bachelor of Information Technology</h4>
+
+              <h5>Sourashtra College of arts and science</h5>
+
+              <div class="meta">
+                <span><i class="fa-solid fa-calendar"></i>May 2021 – Apr 2024</span>
+                <span><i class="fa-solid fa-location-dot"></i> Madurai, IN</span>
+              </div>
+            </div>
+
+            
+          </section>
+
+          <!-- INTERESTS -->
+          
+
+        </div>
+
+        <!-- RIGHT -->
+        <aside class="right-column">
+
+          <!-- SKILLS -->
+          <section class="section">
+            <h3 class="section-title">SKILLS</h3>
+
+            <div class="skills-grid">
+              
+              <span>Python</span>
+              <span>Django</span>
+              <span>Git</span>
+               <span>Flask</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Java</span>
+              <span>Websocket</span>
+              <span>MySQL</span>
+             <span>MongoDB</span>
+              <span>Machine Learning</span>
+              <span>Linux</span>
+              <span>Docker</span>
+              <span>React</span>
+              <span>GitHub</span> 
+              <span>n8n</span>
+              
+              
+              <span>REST API</span>
+            </div>
+          </section>
+
+          <!-- PROJECTS -->
+          <section class="section">
+            <h3 class="section-title">PROJECTS</h3>
+
+            <div class="project">
+               <a href="https://github.com/venkatesh01-t/Dental-Clinic-Management-System" target="_blank" rel="noreferrer"><h4>Dental Clinic Management System</h4></a>
+              <p>Role: Lead Django Developer</p>
+              <p>Frontend: HTML5, Tailwind CSS, HTMX</p>
+              <p>Backend: Django REST API, Websocket, Python 3.8, PostgreSQL</p>
+              <p>Testing: pytest, Selenium</p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/venkatesh01-t/Real-Time-Drowsiness-Detection-System" target="_blank" rel="noreferrer"><h4>Drowsiness Detection</h4></a>
+              <p>Role: Python Developer</p>
+              <p>Backend: Python 3.8, OpenCV, TensorFlow</p>
+              <p>Frontend: custom tkinter GUI</p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/venkatesh01-t/Smart-Weather-Forecasting-System" target="_blank" rel="noreferrer"><h4>Weather Forecasting</h4></a>
+              <p>Role: Data Analyst</p>
+              <p>Frontend: Flask , FastAPI </p>
+              <p>Backend: KNN, pandas , scikit-learn ,matplotlib</p>
+              <p>Testing: pytest, scikit-learn</p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/venkatesh01-t/web-scraping-with-google-lens" target="_blank" rel="noreferrer"><h4>Web Scraping(Google lens)</h4></a>
+              <p>Frontend: Flask , BeautifulSoup</p>
+              <p>Backend: Python 3.8, Scrapy</p>
+            </div>
+          </section>
+
+          <!-- ACHIEVEMENTS -->
+          <section class="section">
+            <h3 class="section-title">CERTIFICATIONS</h3>
+
+            <div class="achievement">
+              <i class="fa-regular fa-lightbulb"></i>
+              <a href="https://drive.google.com/file/d/15dMRTUgOJeCBfoOJnp7uVL56MVDTcTry/view?usp=sharing" target="_blank" rel="noreferrer"><span>AI-Powered Cybersecurity Fundamentals - 2025</span></a>
+            </div>
+
+            <div class="achievement">
+              <i class="fa-regular fa-medal"></i>
+              <a href="https://drive.google.com/file/d/1aOtFMXk1PJ54rWCw-bLACY9TXayWb1uw/view?usp=drive_link" target="_blank" rel="noreferrer"><span>Python with Machine Learning - 2024</span></a>
+            </div>
+
+            <div class="achievement">
+              <i class="fa-regular fa-star"></i>
+              <a href="https://drive.google.com/file/d/1oUZPIQkCHow0F2lAR-XsMFxTT1ysCJ54/view?usp=sharing" target="_blank" rel="noreferrer"><span>Django REST API (WebSocket) - 2023</span></a>
+            </div>
+          </section>
+<section class="section">
+            <h3 class="section-title">INTERESTS</h3>
+
+            <div class="interests">
+              
+              <div class="interest-item">
+                <i class="fa-solid fa-book"></i>
+                <span>Reading</span>
+              
+              <div class="interest-item">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <span>Solving puzzles</span>
+              </div>
+              </div>
+              </div>
+              <br>
+              
+
+              
+              <div class="interest-item">
+                <i class="fa-solid fa-robot"></i>
+                <span>Technology</span>
+              
+<div class="interest-item">
+  <i class="fa-solid fa-code"></i>
+  <span>Vibe Coding</span>
+</div>
+              
+              
+              
+
+              
+            </div>
+          </section>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- html2canvas + jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
